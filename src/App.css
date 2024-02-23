@@ -277,31 +277,6 @@ img {
   animation: slideAndFadeIn 1s ease forwards;
 }
 
-/* About css */
-
-.about-row-container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-.about-row-1,
-.about-row-2,
-.about-row-3,
-.about-row-4 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  place-items: center;
-  text-align: center;
-}
-
-.about-row-container img {
-  max-width: 50%;
-}
-
-/* Spellworth & Clients */
-
 .spellworth-container {
   display: flex;
   justify-content: center;
