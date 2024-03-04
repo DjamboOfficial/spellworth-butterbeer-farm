@@ -42,7 +42,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  overflow: scroll;
+  align-items: center;
+
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
@@ -54,16 +55,20 @@ body {
   font-family: "Poiret One", sans-serif;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
 }
 
 .header {
   margin: 0;
   padding: 0;
   display: flex;
-  width: 100%;
-  background-color: white;
   align-items: center;
+  width: 100%;
   justify-content: space-around;
+  font-size: 4vh;
 }
 
 .logo {
@@ -77,8 +82,9 @@ body {
   margin-bottom: 10vh;
 }
 
-.intro-image {
+#intro-image {
   width: 100%;
+  border: none;
 }
 
 /* Horizontal-image container here! */
@@ -88,10 +94,11 @@ body {
   flex-direction: row;
   justify-content: space-between;
   padding: 2vw;
+  height: 100%;
+  overflow: hidden;
 }
 
 .content-left {
-  height: 100vh;
   width: 50vw;
   display: flex;
   flex-direction: column-reverse;
@@ -99,7 +106,6 @@ body {
   align-items: center;
 }
 .content-right {
-  height: 100vh;
   width: 50vw;
   align-items: center;
   display: flex;
@@ -107,11 +113,24 @@ body {
 }
 
 .img-1 {
-  width: 60vh;
+  width: 75vh;
+  border: 2px solid gold;
 }
 
 .img-2 {
-  width: 60vh;
+  width: 75vh;
+  border: 2px solid gold;
+}
+
+.content-left p {
+  font-size: 4vh;
+  padding-left: 3vh;
+  padding-right: 3vh;
+}
+
+.content-right p {
+  font-size: 4vh;
+  padding-left: 3vh;
 }
 
 /* Horizontal-image container here! */
@@ -140,16 +159,22 @@ body {
   overflow: hidden;
 }
 
+h3 {
+  font-size: 4vh;
+}
+
 .butterbeer-row-image {
   min-width: 100%;
   max-width: 100%; /* Adjusted size using percentage */
   max-height: 100%; /* Adjusted size using percentage */
+  border: none;
 }
 
 /* final-presentation container is where the products are visualized */
 
 .final-presentation-container {
   display: block;
+  font-size: 4vh;
 }
 
 .presentation-row-1,
@@ -173,6 +198,7 @@ body {
   display: flex;
   justify-content: center;
   height: 50vh;
+  margin-bottom: 20vh;
 }
 
 .product-image {
@@ -198,6 +224,16 @@ body {
   }
 }
 
+.product-image {
+  height: 100vh;
+  width: 100%;
+}
+
+.product-description {
+  font-size: 4vh;
+  padding-left: 5vh;
+}
+
 /* Here go the brothers */
 
 .brothers-container {
@@ -207,18 +243,20 @@ body {
   height: 100vh;
   width: 100%;
   gap: 10vh;
+  -top: 5vh;
   margin-left: 2vw;
-  margin-bottom: 5vh;
+  margin-bottom: 20vh;
   overflow: hidden;
 }
 
 .brothers-img {
-  height: 80vh;
+  height: 90vh;
+  border: 2px solid gold;
   animation: slideAndFadeIn 1s ease forwards;
 }
 
 .brothers-text {
-  font-size: 2.2vh;
+  font-size: 4vh;
   margin-right: 10vw;
 }
 
@@ -233,13 +271,16 @@ body {
 }
 
 .estate-img {
-  height: 80vh;
+  height: 120vh;
+  width: 80vw;
   animation: slideAndFadeIn 1s ease forwards;
+  border: 2px solid gold;
 }
 
 .estate-text {
   margin-left: 2vw;
   margin-right: 2vw;
+  font-size: 4vh;
 }
 
 /* Footer */
@@ -254,16 +295,19 @@ li {
 }
 
 .footer-container {
+  margin-top: 10vh;
   background-image: url("https://res.cloudinary.com/dgwvbd9ki/image/upload/v1706862976/footer.001_newjqg.png");
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
+  height: 50vh;
 }
 
 .footer-lists {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-size: 3vh;
 }
 
 .footer-list-1,

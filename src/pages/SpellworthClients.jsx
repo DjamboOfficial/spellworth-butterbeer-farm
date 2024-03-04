@@ -1,4 +1,5 @@
 import "../App.css";
+import "../styles/clients.css";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 
@@ -6,73 +7,31 @@ export const SpellworthClients = () => {
   return (
     <>
       <Header />
-      <div className="spellworth-container">
-        <div className="spellworth-text">
-          <p>
-            The special relationship between Hogwarts, Hogsmeade, and the
-            Spellworth Butterbeer is steeped in history, tradition, and magic.
-            Spanning centuries, this bond has woven its way through the fabric
-            of wizarding society, leaving an indelible mark on the hearts and
-            minds of generations. At the heart of this relationship lies the
-            quaint village of Hogsmeade, nestled snugly against the Hogwarts
-            School of Witchcraft and Wizardry. This picturesque hamlet serves as
-            a haven for students and faculty alike, providing a sanctuary away
-            from the rigors of academic life. But beyond its charming
-            cobblestone streets and cozy cottages lies a secret that has long
-            captured the imagination of witches and wizards – the Spellworth
-            Butterbeer Farm. The Spellworth Butterbeer Farm stands as a
-            testament to the enduring legacy of the Spellworth family, whose
-            roots run deep in the rich soil of Hogsmeade. For centuries, the
-            Spellworths have dedicated themselves to the art of brewing, honing
-            their craft to perfection and producing some of the finest magical
-            beverages known to wizardkind. But it is their signature creation –
-            Butterbeer – that has truly captured the hearts of all who taste it.
-            Butterbeer, with its golden hue and creamy froth, is more than just
-            a beverage – it is a symbol of camaraderie, celebration, and the
-            magic of friendship. Brewed using a closely guarded recipe passed
-            down through generations, each sip carries with it a sense of
-            nostalgia and warmth, evoking memories of crisp winter nights and
-            crackling fires in the Gryffindor common room.
-          </p>
+      <div className="hogwarts-page-container">
+        <div className="hogwarts-row-1">
           <img
-            className="spellworth-image"
-            src="https://res.cloudinary.com/dgwvbd9ki/image/upload/v1706874176/spellworth-butterbeer/djambo1990_51954_a_man_dressed_like_in_the_Middle_Ages_shaking__8401e8c9-b6bc-4eef-969f-88d37f14ec6c_s1gfa7.png"
-            alt="Albus Dumbledore 1"
-          />
-          <p>
-            The relationship between Hogwarts and the Spellworth Butterbeer Farm
-            goes beyond mere patronage – it is a partnership forged in shared
-            values and mutual respect. As the exclusive supplier of Butterbeer
-            to the Hogwarts Express and the Three Broomsticks Inn, the
-            Spellworths play a vital role in ensuring that students and visitors
-            alike experience the true essence of wizarding hospitality. But it
-            is perhaps during the annual Triwizard Tournament that the bond
-            between Hogwarts, Hogsmeade, and the Spellworth Butterbeer Farm
-            shines brightest.
-          </p>
-          <img
-            className="spellworth-image"
             src="https://res.cloudinary.com/dgwvbd9ki/image/upload/v1706874274/spellworth-butterbeer/djambo1990_51954_a_man_dressed_like_in_the_Middle_Ages_shaking__7f9a732f-87bd-4ff4-a7de-e7071c75c63c_tsahna.png"
-            alt="Albus Dumbledore 2"
-          />
-          <p>
-            As the wizarding world's premier sporting event, the Triwizard
-            Tournament draws competitors and spectators from far and wide,
-            transforming Hogsmeade into a bustling hub of excitement and
-            anticipation. For the Spellworth family, the Triwizard Tournament
-            represents more than just an opportunity to showcase their wares –
-            it is a chance to celebrate the spirit of competition and the
-            triumph of the human (and magical) spirit. Each year, they work
-            tirelessly to ensure that the Butterbeer flows freely, fueling the
-            cheers and applause that echo through the stadium as champions vie
-            for glory.
-          </p>
+            alt="Spellworth & Dumbledore"
+          />{" "}
+          <div className="hogwarts-text-container">
+            <p>
+              The relationship between Hogwarts and the Spellworth Butterbeer
+              Farm goes beyond mere patronage – it is a partnership forged in
+              shared values and mutual respect. "As the exclusive supplier of
+              Butterbeer to the Hogwarts Express and the Three Broomsticks Inn,
+              the Spellworths play a vital role in ensuring that students and
+              visitors alike experience the true essence of wizarding
+              hospitality," said Albus Dumbledore last year, a honored guest in
+              the Spellworth Butterhop Harvest Event.
+            </p>
+          </div>
+        </div>
+        <div className="hogwarts-row-2">
           <img
-            className="spellworth-image"
-            src="https://res.cloudinary.com/dgwvbd9ki/image/upload/v1706874174/spellworth-butterbeer/djambo1990_51954_a_man_with_a_thick_red_beard_dressed_like_in_t_824f68db-022b-451a-a192-e215f17727a6_tcqktn.png"
-            alt="Marcus Scoto Spellworth at Hogwarts"
+            src="https://res.cloudinary.com/dgwvbd9ki/image/upload/v1709551587/spellworth-butterbeer/djambo1990_51954_Hyperrealisti_colored_photograph_of_a_group_of_e619248d-11ea-4d4c-b972-a5b2e6d7e1cc_da3brg.png"
+            alt="hogwarts-students"
           />
-          <p>
+          <div className="hogwarts-text-container">
             But beyond the glitz and glamour of the tournament lies a deeper
             connection that binds Hogwarts, Hogsmeade, and the Spellworth
             Butterbeer Farm together. It is a connection forged in shared
@@ -85,7 +44,39 @@ export const SpellworthClients = () => {
             witches and wizards who call these hallowed halls home, the magic of
             Butterbeer will continue to flow, weaving its way through the
             tapestry of wizarding life for generations to come.
-          </p>
+          </div>
+        </div>
+        <div className="hogwarts-row-3">
+          <img
+            src="https://res.cloudinary.com/dgwvbd9ki/image/upload/v1709552023/spellworth-butterbeer/djambo1990_51954_the_Three_Wizard_Tournament._Huge_crowds_of_en_8248a28a-9eb1-4bb0-a13e-babec8992d21_toojex.png"
+            alt="triwizard-tournament"
+          />
+          <div className="hogwarts-text-container">
+            As the wizarding world's premier sporting event, the Triwizard
+            Tournament draws competitors and spectators from far and wide,
+            transforming Hogsmeade into a bustling hub of excitement and
+            anticipation. For the Spellworth family, the Triwizard Tournament
+            represents more than just an opportunity to showcase their wares –
+            it is a chance to celebrate the spirit of competition and the
+            triumph of the human (and magical) spirit. Each year, they work
+            tirelessly to ensure that the Butterbeer flows freely, fueling the
+            cheers and applause that echo through the stadium as champions vie
+            for glory.
+          </div>
+        </div>
+        <div className="hogwarts-row-4">
+          <img
+            src="https://res.cloudinary.com/dgwvbd9ki/image/upload/v1706874176/spellworth-butterbeer/djambo1990_51954_a_man_with_a_thick_red_beard_dressed_like_in_t_fe61ec32-43d9-4c6f-960b-6a12598d6290_foladd.png"
+            alt="Marcus Scoto Spellworth at Hogwarts"
+          />
+          <div className="about-text-container">
+            Thus, from the ashes of adversity arose a new era of prosperity for
+            the Spellworth lineage up to its very last representative, Marcus
+            Scoto Spellworth. The fertile land bore witness to the birth of a
+            beverage unlike any other – Butterbeer – whose distinctive flavor
+            and magical properties would become synonymous with the name
+            Spellworth, echoing through generations to come.
+          </div>
         </div>
       </div>
       <Footer />

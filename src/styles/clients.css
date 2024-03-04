@@ -1,16 +1,17 @@
 /* About css */
 
-.about-page-container {
+.hogwarts-page-container {
   display: flex;
   flex-direction: column;
-  display: flex;
   margin-top: 12vh;
+  margin-left: 2vw;
+  margin-right: 2vw;
   justify-content: center;
   align-items: center;
 }
 
-.about-row-1,
-.about-row-3 {
+.hogwarts-row-1,
+.hogwarts-row-3 {
   height: 100vh;
   font-size: 2vh;
   width: 100%;
@@ -18,8 +19,8 @@
   align-items: center;
 }
 
-.about-row-2,
-.about-row-4 {
+.hogwarts-row-2,
+.hogwarts-row-4 {
   height: 100vh;
   font-size: 2vh;
   width: 100%;
@@ -37,20 +38,19 @@
   width: 100%;
 }
 
-p {
-  font-size: 4h;
-  padding: 5vh;
-}
-
 img {
   border: 2px solid gold;
   margin: 5vh;
 }
 
-.about-text-container {
+.hogwarts-text-container {
   height: 80%;
   font-size: 4vh;
-  margin: 2vh;
+  margin-top: 2vh;
+  margin-right: 2vw;
+  margin-left: 3vw;
+  margin-bottom: 2vh;
+  text-align: justify;
 }
 
 #logo {
