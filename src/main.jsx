@@ -22,3 +22,5 @@ root.render(
     </Router>
   </StrictMode>
 );
+
+/* Speriamo funzioni! */
